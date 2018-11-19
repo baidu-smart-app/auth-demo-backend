@@ -1,0 +1,7 @@
+{
+    "deal_id": "{{deal_id}}",
+    "order_title" : "百度小程序Demo支付测试",
+    
+    "app_key" :"{{app_key}}",
+    "app_id": "{{app_id}}"
+}
