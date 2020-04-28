@@ -1,9 +1,9 @@
 package pay
 
 import (
-	paydata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httputil"
+	paydata "auth-demo-backend/data/pay"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/httputil"
 )
 
 // Refund 退款申请

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/log"
+	"auth-demo-backend/lib/log"
 )
 
 // Context 请求的上下文

@@ -1,11 +1,11 @@
 package resource
 
 import (
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/conf"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/log"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/model/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/model/pay"
+	"auth-demo-backend/lib/conf"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/log"
+	"auth-demo-backend/model/auth"
+	"auth-demo-backend/model/pay"
 )
 
 // Config 全局配置

@@ -1,9 +1,9 @@
 package pay
 
 import (
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	paymodel "icode.baidu.com/baidu/searchbox/ma-srvdemo/model/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	"auth-demo-backend/lib/httpserver"
+	paymodel "auth-demo-backend/model/pay"
+	"auth-demo-backend/resource"
 )
 
 // Status 查询订单

@@ -1,6 +1,19 @@
 # 项目介绍
 小程序服务端示例代码
 
+# 开始之前
+
+## 本地部署说明
+
+### 参数替换
+如果要测试真实的收银台服务端，请替换如下参数:
+1. 替换 `conf/pay.json`文件中的`deal_id`, `app_key`, `app_id` 为百度收银台真实数据，参考[支付管理后台操作指引
+](https://smartprogram.baidu.com/docs/introduction/background-guide/) 。
+2. 替换 `conf/platform_rsa_public_key.pem` 和 `conf/self_rsa_private_key.pem` 为[百度收银台支付开通指引](https://smartprogram.baidu.com/docs/introduction/pay/) 中生成的公钥和私钥。
+
+### 运行
+请将代码库拉取下来，放入 go_path 下运行
+
 
 # 项目模块
 

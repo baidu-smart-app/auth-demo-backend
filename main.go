@@ -4,13 +4,13 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/controllers/biz3th/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/controllers/biz3th/debug"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/controllers/biz3th/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/conf"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/log"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	"auth-demo-backend/controllers/biz3th/auth"
+	"auth-demo-backend/controllers/biz3th/debug"
+	"auth-demo-backend/controllers/biz3th/pay"
+	"auth-demo-backend/lib/conf"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/log"
+	"auth-demo-backend/resource"
 )
 
 func main() {

@@ -1,9 +1,9 @@
 package auth
 
 import (
-	authdata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httputil"
+	authdata "auth-demo-backend/data/auth"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/httputil"
 )
 
 func Login(ctx *httpserver.Context, code string, conf *Config) (string, error) {

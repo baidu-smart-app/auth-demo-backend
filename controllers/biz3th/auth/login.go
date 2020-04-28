@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/rsp"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/model/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/rsp"
+	"auth-demo-backend/model/auth"
+	"auth-demo-backend/resource"
 )
 
 // Login 调用swan.Login 后第三方开发者前端回调第三方服务端

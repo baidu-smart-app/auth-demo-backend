@@ -1,10 +1,10 @@
 package pay
 
 import (
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/rsp"
-	paymodel "icode.baidu.com/baidu/searchbox/ma-srvdemo/model/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/rsp"
+	paymodel "auth-demo-backend/model/pay"
+	"auth-demo-backend/resource"
 )
 
 // Refund 申请退款

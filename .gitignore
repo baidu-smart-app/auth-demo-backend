@@ -4,3 +4,5 @@
 output
 .*.swp
 .*.swo
+auth-demo-backend
+log

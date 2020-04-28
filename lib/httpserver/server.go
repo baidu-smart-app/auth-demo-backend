@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/rsp"
+	"auth-demo-backend/lib/rsp"
 )
 
 // Server 一个服务器

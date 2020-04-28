@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	paymodel "icode.baidu.com/baidu/searchbox/ma-srvdemo/model/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	"auth-demo-backend/lib/httpserver"
+	paymodel "auth-demo-backend/model/pay"
+	"auth-demo-backend/resource"
 )
 
 // Gen 生成订单

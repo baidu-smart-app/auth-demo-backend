@@ -1,11 +1,11 @@
 package pay
 
 import (
-	paydata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/rsp"
-	paymodel "icode.baidu.com/baidu/searchbox/ma-srvdemo/model/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/resource"
+	paydata "auth-demo-backend/data/pay"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/rsp"
+	paymodel "auth-demo-backend/model/pay"
+	"auth-demo-backend/resource"
 )
 
 // SuccCallBack 支付成功回到

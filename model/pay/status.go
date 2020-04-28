@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	paydata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httputil"
+	paydata "auth-demo-backend/data/pay"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/httputil"
 )
 
 // Status 查询支付状态

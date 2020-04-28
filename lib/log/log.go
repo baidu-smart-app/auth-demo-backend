@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"time"
 
-	dconf "icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/conf"
+	dconf "auth-demo-backend/lib/conf"
 )
 
 // Config log config

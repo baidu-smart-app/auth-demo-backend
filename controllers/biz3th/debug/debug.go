@@ -1,9 +1,9 @@
 package debug
 
 import (
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/data/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/data/pay"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
+	"auth-demo-backend/data/auth"
+	"auth-demo-backend/data/pay"
+	"auth-demo-backend/lib/httpserver"
 )
 
 func Debug(ctx *httpserver.Context) interface{} {

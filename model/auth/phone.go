@@ -3,9 +3,9 @@ package auth
 import (
 	"encoding/json"
 
-	authdata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/auth"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/httpserver"
-	"icode.baidu.com/baidu/searchbox/ma-srvdemo/lib/rsp"
+	authdata "auth-demo-backend/data/auth"
+	"auth-demo-backend/lib/httpserver"
+	"auth-demo-backend/lib/rsp"
 )
 
 // DecryptUserData 解密用户数据

@@ -1,7 +1,7 @@
 package pay
 
 import (
-	paydata "icode.baidu.com/baidu/searchbox/ma-srvdemo/data/pay"
+	paydata "auth-demo-backend/data/pay"
 )
 
 func SuccCallBack(params *paydata.SuccCallBackParam) error {
