@@ -12,7 +12,7 @@
 2. 替换 `conf/platform_rsa_public_key.pem` 和 `conf/self_rsa_private_key.pem` 为[百度收银台支付开通指引](https://smartprogram.baidu.com/docs/introduction/pay/) 中生成的公钥和私钥。
 
 ### 运行
-请将代码库拉取下来，放入 go_path 下运行
+请将代码库拉取下来，放入 GOPATH 下运行
 
 
 # 项目模块
