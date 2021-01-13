@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"path/filepath"
 	"runtime"
 
@@ -14,7 +15,8 @@ import (
 )
 
 func main() {
-	conf.Init(root())
+	dir, _ := os.Getwd()
+	conf.Init(dir)
 
 	if err := resource.Init(map[string]interface{}{
 		"server.json":    resource.C.Server,

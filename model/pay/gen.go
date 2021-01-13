@@ -175,12 +175,13 @@ func (oi *OrderInfo) Render(rsaPrivateKey []byte) (map[string]string, error) {
 	}
 
 	return map[string]string{
-		"dealId":      oi.DealID,
-		"appKey":      oi.AppKey,
-		"totalAmount": oi.TotalAmount,
-		"tpOrderId":   oi.TpOrderID,
-		"dealTitle":   oi.DealTitle,
-		"rsaSign":     string(cipherText),
-		"bizInfo":     bizInfo,
+		"dealId":          oi.DealID,
+		"appKey":          oi.AppKey,
+		"totalAmount":     oi.TotalAmount,
+		"tpOrderId":       oi.TpOrderID,
+		"dealTitle":       oi.DealTitle,
+		"rsaSign":         string(cipherText),
+		"bizInfo":         bizInfo,
+		"signFieldsRange": "1",
 	}, nil
 }
