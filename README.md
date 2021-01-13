@@ -2,17 +2,28 @@
 小程序服务端示例代码
 
 # 开始之前
-
+## 说明
+ 1. 本示例基于golang实现，主要展示对接oauth2.0授权登录过程以及对接百度收银台支付服务时,小程序开发者需要自行实现的服务端接口；
+ 2. 本示例仅建议在开发机进行本地部署，配合相关[示例小程序](https://github.com/baidu-smart-app/auth-pay-demo-frontend)在开发者工具里进行调试；
+ 3. 如果需要在真机进行调试，建议开发者自行实现相关服务端功能，提供广域网接口，并参考[示例小程序](https://github.com/baidu-smart-app/auth-pay-demo-frontend)配置说明将服务域名替换为真实域名；  
+ 
+## 免责声明
+ 本示例仅供调试参考，不具备真实的业务处理能力，具体业务逻辑请开发者根据实际业务需求自行实现。
+ 
 ## 本地部署说明
-
-### 参数替换
-如果要测试真实的收银台服务端，请替换如下参数:
-1. 替换 `conf/pay.json`文件中的`deal_id`, `app_key`, `app_id` 为百度收银台真实数据，参考[支付管理后台操作指引
-](https://smartprogram.baidu.com/docs/introduction/background-guide/) 。
-2. 替换 `conf/platform_rsa_public_key.pem` 和 `conf/self_rsa_private_key.pem` 为[百度收银台支付开通指引](https://smartprogram.baidu.com/docs/introduction/pay/) 中生成的公钥和私钥。
-
 ### 运行
-请将代码库拉取下来，放入 GOPATH 下运行
+1. 参考 github 指示，将代码拉取到本地；
+2. 按照【参数替换】说明替换配置参数；
+3. 在代码根目录运行 go mod tidy 安装相关依赖；（golang环境自行安装，建议golang版本>=1.13）
+4. 在代码根目录运行 go run main.go
+5. 第4步启动后使用浏览器直接访问 http://127.0.0.1:8080/, 如果返回404说明服务启动成功；
+6. 按照[示例小程序文档](https://github.com/baidu-smart-app/auth-pay-demo-frontend)指示，将第5步中的服务域名(127.0.0.1:8080)配置到小程序示例中，即可在开发者工具体验登录、订单相关功能；
+
+### 参数替换 
+
+1. 测试登录相关服务，替换`conf/smart_app.json` 文件中的 `{app_key}`, `{secret_key}`；app_key为智能小程序的 AppKey,示例：4fecoAqgCIUtzIyA4FAPgoyrc4oUc25c;secret_key 为智能小程序的 AppSecret 从开发者平台中获取; 
+2. 测试订单相关业务，替换 `conf/pay.json`文件中的`{deal_id}`, `{app_key}`, `{app_id}` 为百度收银台真实数据，参考[支付管理后台操作指引](https://smartprogram.baidu.com/docs/introduction/background-guide/)  
+3. 测试订单相关业务，替换 `conf/platform_rsa_public_key.pem` 和 `conf/self_rsa_private_key.pem` 为[百度收银台支付开通指引](https://smartprogram.baidu.com/docs/introduction/pay/) 中生成的公钥和私钥。
 
 
 # 项目模块
